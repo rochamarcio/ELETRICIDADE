@@ -1,3 +1,5 @@
- - ANOTAÇOES DE TAREFAS A SEREM FEITAS
+ - ANOTAÇOES DE TAREFAS:
 
  1) CORRIGIR NOTEBOOK INVÁLIDO NO GIT-HUB - SOLUÇÃO: Alterar o default para marcio e apagar o default anterior master que estava com falha, depois alterar checkout para marcio localmente e fazer os git de adição, comentário e sincronização.
+
+ 2) pipreqs não acha o arquivo, acredito que seja porque instalaei com requeriments de outro projeto mas não tenho certeza.
