@@ -1,2 +1,4 @@
 .electric
 src/data/household_power_consumption.txt
+src/model/__pycache__
+src/prep/estudo_de_consumo.csv
