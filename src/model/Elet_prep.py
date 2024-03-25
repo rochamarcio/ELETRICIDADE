@@ -1,8 +1,5 @@
 import pandas as pd
 import numpy as np
-import matplotlib.pyplot as plt
-import seaborn as sns
-import missingno as msno
 import warnings
 import datetime as dt
 warnings.filterwarnings('ignore')
@@ -38,5 +35,6 @@ def preprocessing():
     df.insert(2, 'Ano', df['Data'].dt.year)
     df.insert(3, 'Trimestre', df['Data'].dt.quarter)
     df.insert(4, 'Periodo', df['Tempo'].apply(lambda x: 'Dia' if 6 <= x.hour < 18 else ('Noite' if 18 <= x.hour < 24 else 'Madrugada')))
-
+    df.drop(columns=col_ind, inplace=True)
     return df
+
